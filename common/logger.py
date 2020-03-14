@@ -22,7 +22,6 @@ from common.config import conf
 fmt = " %(asctime)s  %(levelname)s %(filename)s %(funcName)s [ line:%(lineno)d ] %(message)s"
 date_fmt = '%a, %d %b %Y %H:%M:%S'
 
-
 # 输出到控制台
 handler_1 = logging.StreamHandler()
 
@@ -35,7 +34,7 @@ log_path = LOGS_DIR + '{}_{}.log'.format(log_name, curTime)
 handler_2 = RotatingFileHandler(log_path, backupCount=20, encoding='utf-8')
 
 # 设置日志输出的内容形式，输出渠道
-logging.basicConfig(format=fmt, datefmt=date_fmt, level=logging.DEBUG, handlers=[handler_1,handler_2])
+logging.basicConfig(format=fmt, datefmt=date_fmt, level=logging.DEBUG, handlers=[handler_1, handler_2])
 
 
 if __name__ == '__main__':
