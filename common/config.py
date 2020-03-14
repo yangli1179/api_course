@@ -30,7 +30,6 @@ class ReadConfig(configparser.ConfigParser):
             self.read(os.path.join(CONF_DIR, "config_test.ini"), encoding="utf8")
         elif version == 'produce':
             self.read(os.path.join(CONF_DIR, "config_produce.ini"), encoding="utf8")
-        # print(version)
 
 
 conf = ReadConfig()
