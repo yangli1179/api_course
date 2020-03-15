@@ -42,7 +42,7 @@ class SendEmail(object):
         content = MIMEText(message, _charset="utf8")
 
         # 构造附件
-        part = MIMEApplication(open(file_path, "rb").read(), _subtype=False)
+        part = MIMEApplication(open(file_path, "rb").read(), _subtype=False)   # rb是只读二进制文件
         part.add_header("content-disposition", "attachment", filename="report.html")
 
         # 封装邮件，添加邮件主题
