@@ -43,7 +43,7 @@
 # # # print(len(b))
 #
 # # 练习
-# a = [1, 2, 3, 4, 5, 6, 7, 8]
+a = [1, 2, 3, 4, 5, 6, 7, 8]
 # b = [11, 12, 13]
 # a.insert(0,'0')
 # print(a)
@@ -88,29 +88,33 @@
 # a.sort(reverse = True)
 # print(a)
 #
-# f = a[0: 8: 2]
-# print(f)
-
-
-a = "  aBCdef  "
-b = a.upper()
-print(b)
-c = a.strip()
-print(c)
-c = a.rstrip()
-print(c)
-d = a.lower()
-print(d)
-e = a.find(a)
-print(e)
-f = a.split("d")
-
+f = a[0: 8]
 print(f)
 
-str1 = "abc"
-str2 = str1.join(("zhangshan","nimei"))
-print("str2:", str2)
-print("str1:", str1)
-# str2 = "666".join("zhang")
+
+# a = "  aBCdef  "
+# b = a.upper()
+# print(b)
+# c = a.strip()
+# print(c)
+# c = a.rstrip()
+# print(c)
+# d = a.lower()
+# print(d)
+# e = a.find(a)
+# print(e)
+# f = a.split("d")
+#
+# print(f)
+#
+# str1 = "abc"
+# str2 = str1.join(("zhangshan","nimei"))
 # print("str2:", str2)
 # print("str1:", str1)
+# # str2 = "666".join("zhang")
+# # print("str2:", str2)
+# print("str1:", str1)
+
+# a = [1, 2, 3]
+# print(len(a))
+
