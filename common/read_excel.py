@@ -84,15 +84,21 @@ class ReadExcel(object):
 
 
 if __name__ == '__main__':
+
     import os
     from common.constant import DATA_DIR
-    # readexcel = ReadExcel(os.path.join(DATA_DIR, "students.xlsx"), "Sheet1")
-    # excel = readexcel.read_line_data()
-    # print(excel)
-    # for a in excel:
-    #    print(a.id, a.name, a.age)
-    # res = readexcel.write_data(row=2, column=4, value="java")
-    for i in (1, 2, 3):
-        print(i)
+    readexcel = ReadExcel(os.path.join(DATA_DIR, "students.xlsx"), "Sheet1")
+    excel = readexcel.read_line_data()
+    print(excel)
+    for a in excel:
+       print(a.id, a.name, a.age)
+    res = readexcel.write_data(row=2, column=4, value="java")
+
+
+
+
+
+
+
 
 
