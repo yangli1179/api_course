@@ -71,7 +71,7 @@ class HTTPRequest1(object):
 
 
 if __name__ == '__main__':
-    r = HTTPRequest1()
+    r = HTTPRequest()
     url = "http://118.24.221.133:8081/futureloan/mvc/api/member/login"
     method = "post"
     data = {'mobilephone': '13342884220', 'pwd': '123456'}

@@ -53,17 +53,12 @@ E-mail:1179384105@qq.com
 # email = SendEmail.send_qq_file_email(title=title, message=message, file_path=file_path)
 
 
+# 九九乘法表
 
-
-
-
-
-
-
-
-
-
-
-
+for i in range(1, 10):
+    for j in range(1, 10):
+        if j<=i:
+            print("{}*{}={}".format(j, i, j*i), end="\t")
+    print('')
 
 

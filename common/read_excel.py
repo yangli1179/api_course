@@ -27,8 +27,8 @@ class Case(object):
 
 
 class ReadExcel(object):
-    def __init__(self, file_name, sheet_name):
-        self.file_name = file_name
+    def __init__(self, file_path, sheet_name):
+        self.file_name = file_path
         self.sheet_name = sheet_name
 
     def open(self):

@@ -27,6 +27,8 @@ LOGS_DIR = os.path.join(BASE_DIR, "logs")
 
 REPORT_DIR = os.path.join(BASE_DIR, "report")
 
+CASES_DIR = os.path.join(BASE_DIR, "test_cases")
+
 
 if __name__ == '__main__':
     print(BASE_DIR)
